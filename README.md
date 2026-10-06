@@ -27,6 +27,17 @@ npm run build    # tsc -b && vite build
 
 Microphone access requires HTTPS or `localhost`.
 
+## Use it on your iPhone
+
+The app deploys to GitHub Pages on every push to `main` (`.github/workflows/deploy.yml`).
+One-time setup: in the repo go to **Settings → Pages** and set **Source** to **GitHub Actions**.
+
+1. Open `https://graicifyd.github.io/prayer-streak/` in Safari.
+2. Tap **Share → Add to Home Screen**.
+3. Launch it from the home screen; it runs full-screen like a native app. Allow microphone access when asked.
+
+Data is stored on the device inside Safari, so clearing Safari website data also clears your prayers — export a JSON backup from Settings first.
+
 ## Data
 
 All data lives in the browser:
